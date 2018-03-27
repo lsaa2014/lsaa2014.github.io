@@ -98,9 +98,9 @@ analytics:
 # Site Author
 author:
   name             : "Danielle Taneyo"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a passionate of Science. I have a phD in Food Science 
-                       and Biotechnology and I am a Data Scientist too."
+  avatar           : "C:\Users\SAMSUNG\Pictures\Danielle2.jpg" 
+                     # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Data Science Portfolio"
   location         : "Italy"
   email            :
   uri              :
