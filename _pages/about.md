@@ -2,7 +2,7 @@
 title: "About me"
 permalink: /about/
 header:
-   image: "C:\Users\SAMSUNG\Pictures\Danielle2.jpg"  
+   image: "/images/Danielle2.jpg"  
 ---
 
 I'm a Food Scientist phD turned Data Scientist. Passionate of Science.
