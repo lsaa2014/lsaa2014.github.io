@@ -117,7 +117,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "linkedin.com/in/danielletaneyosaa"
+  linkedin         : "danielletaneyosaa/"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
@@ -264,7 +264,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
       
