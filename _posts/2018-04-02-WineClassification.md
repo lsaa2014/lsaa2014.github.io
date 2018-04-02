@@ -19,6 +19,7 @@ I used five algorithms from scikit learn package: KNeighbors, Random Forest, Gau
         
 The random forest model gives the highest accuracy around 88% and we can have also the most important predictors.    
 
- ### What about the weight of the 5 most important features?                                     
+ ## What about the weight of the 5 most important features?     
+ 
 <img src="{{ site.url }}{{ site.baseurl }}/images/wine/important_feature.png" alt="" width="680" height="400">        
 The most important features for red wine classification are : alcohol, volatile acidity, sulphates, density and total sulfur dioxide. Indeed, these are important parameters to evaluate the quality of a wine.
