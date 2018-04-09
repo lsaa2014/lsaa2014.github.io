@@ -19,8 +19,7 @@ or when our body does not respond appropriately to insulin. Even though this is 
 the scope of this analysis, there are three main types of diabetes: type 1, type 2 and gestational.
 
 ## Data 
-This is an exploratory analysis of Pima Indians Diabetes data set. The data is from the [Uci archive]
-(https://archive.ics.uci.edu/ml/datasets/pima+indians+diabetes) using R.
+This is an exploratory analysis of Pima Indians Diabetes data set. The data is from the [Uci archive](https://archive.ics.uci.edu/ml/datasets/pima+indians+diabetes) using R.
 
 The data set consist of 768 records with 9 variables of females with at least  21 years old of Pima Indians heritage. The variables are:   
 1. Number of times pregnant     
@@ -52,7 +51,7 @@ This plot shows that female who tested positive (or 1) have a higher bmi and num
 tested negative. In fact, high Bmi usually means high risk of diabetes.
 
 ### Is there a relationship between Bmi and Triceps skin fold thickness? 
-<img src="{{ site.url }}{{ site.baseurl }}/images/wine/diabetes/bmiTricep.png" alt="" width="680" height="400">        
+<img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/bmiTricep.png" alt="" width="680" height="400">        
 This plot shows that there is a strong relationship between Bmi and triceps skin.    
 It is clear that as Bmi increases, triceps skin also increases. The correlation is higher for female tested negative 
 than those who tested positive, but there are some points than could be considered as outliers. 
