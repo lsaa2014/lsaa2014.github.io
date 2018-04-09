@@ -9,14 +9,13 @@ tags:
   
 ---
 
-<p><img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/pima indians.jpeg" alt="image-center" class="align-center" /></p>    
-
+<p><img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/pima indians.jpeg" alt="image-left" class="align-left" />   
 ## Background
 Diabetes is a disease caused by a malfunctioning hormone insulin. The pancreas  
 releases insulin to help our body store and use carbohydrate and fat from the food 
 we consume. Diabetes may occur when the pancreas produces very little or no insulin, 
 or when our body does not respond appropriately to insulin. Even though this is beyond
-the scope of this analysis, there are three main types of diabetes: type 1, type 2 and gestational.
+the scope of this analysis, there are three main types of diabetes: type 1, type 2 and gestational.</p>
 
 ## Data 
 This is an exploratory analysis of Pima Indians Diabetes data set. The data is from the [Uci archive](https://archive.ics.uci.edu/ml/datasets/pima+indians+diabetes) using R.
