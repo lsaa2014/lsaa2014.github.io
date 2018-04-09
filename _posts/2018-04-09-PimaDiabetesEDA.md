@@ -9,7 +9,7 @@ tags:
   
 ---
 
-<p><img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/pima indians.jpeg" alt="image-left" class="align-left" /></p>   
+<p><img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/pima indians.jpeg" alt="image-left" class="align-left" width="150" height="150"/></p>   
 
 ## Background    
 Diabetes is a disease caused by a malfunctioning hormone insulin. The pancreas  
