@@ -12,10 +12,9 @@ tags:
 <p><img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/pima indians.jpeg" alt="image-left" class="align-left" width="150" height="150"/></p>   
 
 ## Background    
-Diabetes is a disease caused by a malfunctioning hormone insulin. The pancreas  
-releases insulin to help our body store and use carbohydrate and fat from the food 
-we consume. Diabetes may occur when the pancreas produces very little or no insulin, 
-or when our body does not respond appropriately to insulin. Even though this is beyond
+Diabetes is a disease caused by a malfunctioning hormone insulin. The pancreas releases insulin to help our body 
+store and use carbohydrate and fat from the food we consume. Diabetes may occur when the pancreas produces 
+very little or no insulin, or when our body does not respond appropriately to insulin. Even though this is beyond
 the scope of this analysis, there are three main types of diabetes: type 1, type 2 and gestational.
 
 ## Data 
