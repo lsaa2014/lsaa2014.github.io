@@ -10,6 +10,7 @@ tags:
 ---
 
 <p><img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/pima indians.jpeg" alt="image-left" class="align-left" />   
+
 ## Background
 Diabetes is a disease caused by a malfunctioning hormone insulin. The pancreas  
 releases insulin to help our body store and use carbohydrate and fat from the food 
