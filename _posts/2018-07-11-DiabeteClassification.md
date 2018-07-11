@@ -13,7 +13,7 @@ tags:
 
 ## Use machine learning to predict if a female will be tested positive or not for Diabete?
  
-From the last post, we will continue with the diabetes dataset. 
+From the last post, we will continue with the diabetes dataset.    
 ```python
    import numpy as np
    import pandas as pd
@@ -22,24 +22,23 @@ From the last post, we will continue with the diabetes dataset.
    df.head()
 ```   
 The first 5 rows show that there are many zero value in some columns, because we can't have biological
-data with zero, I considered it as Nans. Here's the first rows
-<img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/head_diabete.JPG" alt="" width="680" height="400">
-I choose to replace all the 0/nans with the median by each class
+data with zero, I considered it as Nans. Here's the first rows.             
+<img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/head_diabete.JPG" alt="" width="680" height="400">      
+I choose to replace all the 0/nans with the median by each class.            
 ```python
    df1 = df1.fillna(df1.groupby('Class variable').transform('median'))
 ```   
 Here's the first rows after imputing.
-<img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/head_after_imp.JPG" alt="" width="680" height="400">
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/head_after_imp.JPG" alt="" width="680" height="400">      
 
 Just to remember, we have 2 classes: 0 and 1.
-I used five algorithms from scikit learn package: KNeighbors, Random Forest, Gaussian NB, ExtraTrees and DecisionTree. Here is the accuracy
+I used five algorithms from scikit learn package: KNeighbors, Random Forest, Gaussian NB, ExtraTrees and DecisionTree. Here is the accuracy.            
  
-<img src="{{ site.url }}{{ site.baseurl }}/images//diabetes/acc_target.JPG alt="" width="680" height="400">
+<img src="{{ site.url }}{{ site.baseurl }}/images//diabetes/acc_target.JPG alt="" width="680" height="400">           
         
 Random forest model and decision tree gave the highest accuracy around 88% and we can have also the most important predictors.    
-Let's examine also the confusion matrix
-<img src="{{ site.url }}{{ site.baseurl }}/images//diabetes/acc_target.JPG alt="" width="680" height="400">
+Let's examine also the confusion matrix.            
+<img src="{{ site.url }}{{ site.baseurl }}/images//diabetes/acc_target.JPG alt="" width="680" height="400">        
 
 
 <h3> What about the weight of the 5 most important features? </h3>        
