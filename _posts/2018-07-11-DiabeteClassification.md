@@ -11,7 +11,7 @@ tags:
 
 <p><img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/pima indians.jpeg" alt="image-left" class="align-left" width="150" height="150"/></p>   
 
-## Use machine learning to predict if a female will be tested positive or not for Diabete?
+## Use machine learning to predict if a female will be tested positive or not for Diabete?           
  
 From the last post, we will continue with the diabetes dataset.    
 ```python
@@ -34,11 +34,11 @@ Here's the first rows after imputing.
 Just to remember, we have 2 classes: 0 and 1.
 I used five algorithms from scikit learn package: KNeighbors, Random Forest, Gaussian NB, ExtraTrees and DecisionTree. Here is the accuracy.            
  
-<img src="{{ site.url }}{{ site.baseurl }}/images//diabetes/acc_target.JPG alt="" width="680" height="400">           
+<img src="{{ site.url }}{{ site.baseurl }}/images//diabetes/acc_target.JPG" alt="" width="680" height="400">           
         
 Random forest model and decision tree gave the highest accuracy around 88% and we can have also the most important predictors.    
 Let's examine also the confusion matrix.            
-<img src="{{ site.url }}{{ site.baseurl }}/images//diabetes/acc_target.JPG alt="" width="680" height="400">        
+<img src="{{ site.url }}{{ site.baseurl }}/images//diabetes/acc_target.JPG" alt="" width="680" height="400">        
 
 
 <h3> What about the weight of the 5 most important features? </h3>        
