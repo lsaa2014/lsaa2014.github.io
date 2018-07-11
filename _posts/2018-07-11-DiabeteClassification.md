@@ -1,8 +1,9 @@
 ---
-title: "Red Wine Classification (with Python)"
-date: "Monday, April 02, 2018"
+title: "Pima Indians Diabetes Classification (with Python)"
+date: "Wenesday, July 07, 2018"
 tags:
-  - red wine
+  - Diabetes
+  - Pima Indians
   - Classification
   - Python
   
