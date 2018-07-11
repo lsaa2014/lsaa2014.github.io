@@ -17,8 +17,10 @@ From the last post, we will continue with the diabetes dataset.
 ```python
    import numpy as np
    import pandas as pd
+   ## Read the file
    df = pd.read_csv('pima-indians-diabetes.data.txt', names = ['Number_times_pregnant','PlasmaGlu', 
    'Dbpressure', 'Tricep_thickness', 'Hour_serum_insulin','Bmi', 'Dpfunction', 'Age', 'Class variable'])
+   ## Read the first 5 rows
    df.head()
 ```   
 The first 5 rows show that there are many zero value in some columns, because we can't have biological
@@ -26,6 +28,7 @@ data with zero, I considered it as Nans. Here's the first rows.
 <img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/head_diabete.JPG" alt="" width="680" height="400">      
 I choose to replace all the 0/nans with the median by each class.            
 ```python
+   ## Imputing nans with median from each class
    df1 = df1.fillna(df1.groupby('Class variable').transform('median'))
 ```   
 Here's the first rows after imputing.
