@@ -37,7 +37,7 @@ Here's the first rows after imputing.
 <img src="{{ site.url }}{{ site.baseurl }}/images/diabetes/head_after_imp.JPG" alt="" width="680" height="400">      
 
 Just to remember, we have 2 classes: 0 and 1.
-I used five algorithms from scikit learn package: KNeighbors, Random Forest, Gaussian NB, ExtraTrees and DecisionTree. Here is the accuracy.            
+I used five algorithms from scikit learn package: KNeighbors, Random Forest, Gaussian NB, ExtraTrees and DecisionTree. Here is the accuracy on the training set.            
  
 <img src="{{ site.url }}{{ site.baseurl }}/images//diabetes/acc_target.JPG" alt="" width="380" height="200">           
         
