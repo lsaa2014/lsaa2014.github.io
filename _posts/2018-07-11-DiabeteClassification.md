@@ -46,8 +46,7 @@ Let's examine also the confusion matrix. We have:
 - True negative (TN) = 139
 - True positive (TP) = 63
 - False negative (FN) = 18
-- False positive (FP) = 11  
-
+- False positive (FP) = 11                                  
 Because it's better to predict a person which is negative as positive than a person which is positive as negative, the worse case here would be FN. So, in this case recall is a better metric, let's calculate it. Recall is, out of the positive class, how many did I correctly predict as positive?
 
 Recall = TP / FN + TP -> 63 / (18+63) which is 0.78   
