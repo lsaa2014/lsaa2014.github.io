@@ -46,12 +46,18 @@ Let's examine also the confusion matrix. We have:
 - True negative (TN) = 139
 - True positive (TP) = 63
 - False negative (FN) = 18
-- False positive (FP) = 11          
+- False positive (FP) = 11  
+
 Because it's better to predict a person which is negative as positive than a person which is positive as negative, the worse case here would be FN. So, in this case recall is a better metric, let's calculate it. Recall is, out of the positive class, how many did I correctly predict as positive?
-Recall = TP / FN + TP -> 63 / (18+63) which is 0.78          
-And precision, out of the cases I predicted be positive, how many are really positives?        
+
+Recall = TP / FN + TP -> 63 / (18+63) which is 0.78   
+
+And precision, out of the cases I predicted be positive, how many are really positives?  
+
 Precision = TP / FP + TP -> 63 / (11+63) which is 0.85       
-This is not so good because recall should be higher than precision for this problem.       
+
+This is not so good because recall should be higher than precision for this problem.  
+
 <img src="{{ site.url }}{{ site.baseurl }}/images//diabetes/conf_Mat_Dia.png" alt="" width="380" height="200">        
 
 
