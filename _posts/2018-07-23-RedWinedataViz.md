@@ -16,4 +16,4 @@ Below we can see the correlation between pH/citric, sulphates/chlorides, pH/qual
 
 <iframe src="https://public.tableau.com/views/Wine_Sul_Chl/Dashboard1?:showVizHome=no&:embed=true" width="90%" height="600"></iframe>
 
-NB. Watch out here the decimal separator is a comma instead of a dot, sorry.
+NB. Watch out here the decimal separator is a comma instead of a dot, sorry for the confusion.
