@@ -13,4 +13,4 @@ Below we can see the correlation between Bmi and others variable (age, plasma gl
 - Correlation between Bmi and Age seemed negative for positive test
 - With average Bmi more than 34, we found many positive and specially after more than 13 time of pregnant  
 - With pedigree function more than 1.8 it is most likely that the test be positive     
-<iframe src="https://public.tableau.com/views/Diabete_2/Diabetedashboard?:showVizHome=no&:embed=true" width="70%" height="800"></iframe>
+<iframe src="https://public.tableau.com/views/Diabete_2/Diabetedashboard?:showVizHome=no&:embed=true" width="85%" height="800"></iframe>
