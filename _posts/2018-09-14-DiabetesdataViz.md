@@ -7,10 +7,10 @@ tags:
   - Tableau  
 ---
 
-Below we can see the correlation between pH/citric, sulphates/chlorides, pH/quality and alcohol/ quality on red wine. 
-- Correlation between pH and citric acid is stronger for high quality wine
-- As the quality decreased correlation between suphates and chlorides decreased also
-- High and medium wine have low pH
-- The average alcohol percentage of high quality wine is 11.5.
-
-<iframe src="https://public.tableau.com/views/Diabete_2/Diabetedashboard?:showVizHome=no&:embed=true" width="90%" height="600"></iframe>
+Below we can see the correlation between Bmi and others variable (age, plasma glucose concentration, Diastolic blood pressure, Triceps skin fold thickness and Diabetes pedigree function). 
+- Correlation between Bmi and Triceps skin fold thickness is stronger for those who tested negative
+- As Bmi increased Triceps skin fold thickness increased also
+- Correlation between Bmi and Age seemed negative for positive test
+- With average Bmi more than 34, we found many positive and specially after more than 13 time of pregnant  
+- With pedigree function more than 1.8 it is most likely that the test be positive     
+<iframe src="https://public.tableau.com/views/Diabete_2/Diabetedashboard?:showVizHome=no&:embed=true" width="90%" height="800"></iframe>
