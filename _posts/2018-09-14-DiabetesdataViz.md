@@ -1,6 +1,6 @@
 ---
 title: "Pima Indians diabete dataviz"
-date: "Saturday, September 14, 2018"
+date: "Friday, September 14, 2018"
 tags:
   - diabete
   - DataViz
