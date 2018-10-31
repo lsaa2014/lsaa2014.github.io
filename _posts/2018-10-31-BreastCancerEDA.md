@@ -36,12 +36,12 @@ On this analysis, I want to respond to two questions:
 The original data has 500 tested negatives and 268 positives after removing the missing values, we have 262 tested negatives and 130 positives.
  
 ### Can Glucose, resistin and BMI can be used as biomarkers of breast cancer?
-- BMI
+- BMI         
 <img src="{{ site.url }}{{ site.baseurl }}/images/breast_cancer/ecdf_bmi.png" alt="" width="680" height="400">        
 
 On the above plot, we can see the empirical cumulative distribution function (ECDF) of BMI. It shows for any given number the percent of individuals that are below that threshold. We can see that for BMI equals to 32.5, we have around 75% of healthy below that value and 87.5% of unhealthy below it. In other word, there are more (25%) healthy people with BMI above 32.5 than unhealthy (12.5%).
 
-- Glucose and resistin
+- Glucose and resistin      
 <img src="{{ site.url }}{{ site.baseurl }}/images/breast_cancer/glucose_resistin_by_class.png" alt="" width="680" height="400">        
 This plot shows that both glucose and resistin are higher on unhealthy patients than healthy.
 
