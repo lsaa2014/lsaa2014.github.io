@@ -15,7 +15,7 @@ tags:
 Breast cancer is an uncontrolled growth of epithelial cells originating in the ducts or breast lobules Carbone et al (1993). Breast cancer is the primary cause of cancer in women, accounting for one-third of all cancers. It is important to use routine blood analysis for breast cancer diagnosis.
 
 ## Data  
-In this is exploratory analysis, I will use Breast Cancer data set from University of Coimbra. The data is from the [Uci archive](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Coimbra#) using R. The paper can be founde [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2755091/)
+In this is exploratory analysis, I will use Breast Cancer data set from University of Coimbra. The data is from the [Uci archive](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Coimbra#) using R. The paper can be found [here](https://bmccancer.biomedcentral.com/articles/10.1186/s12885-017-3877-1)
 
 This data consist of 116 observations of 10 variables. The variables are:   
 1. Age (years) 
