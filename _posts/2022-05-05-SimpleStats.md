@@ -12,7 +12,7 @@ tags:
  
 ### Background
 
-Many people can't afford to pay tools for their data analysis, others don't have the time to learn new stuffs. We all need statistics, whether is just to create a simple graph like a histogram or to do t-test or more complex things.
+Many people can't afford to pay tools for their data analysis, others don't have the time to learn new stuffs. We all need statistics, whether is just to create a simple graph like a histogram or to do t-test or more complex things.    
 The goal of this app is to make data analysis easier. If you want to do a t-test, Anova, PCA, PLS or create a heatmap without writing any code this app is right for you. You can also create a bar graph, boxplot or a scatterplot to show the result.
 
 
